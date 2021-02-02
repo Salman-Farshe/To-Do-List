@@ -69,3 +69,25 @@ body{
         }
     }
 }
+
+// making responsive 
+@media (max-width: 1024px){
+    .container{
+        max-width: 40%;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        max-width: 50%;
+    }
+}
+@media (max-width: 600px){
+    .container{
+        max-width: 70%;
+    }
+}
+@media (max-width: 480px){
+    .container{
+        max-width: 90%;
+    }
+}

@@ -21,6 +21,8 @@ $("input[type='text']").keypress(function(event){
         // creat e a new li & add to ul
         //.append() takes a string of html
         $("ul").append("<li><span><i class='far fa-trash-alt fa-1.5x'></i></span> " + newTodo + "</li>");
+        // after adding todo, remove the old todo value from input section
+        $("input[type='text']").val('');
     }
 });
 
